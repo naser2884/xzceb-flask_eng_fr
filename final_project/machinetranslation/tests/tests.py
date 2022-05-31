@@ -7,7 +7,7 @@ class TestTranslateEnToFr(unittest.TestCase):
     """
     def test1(self):
         """
-        Function to test the function english_to_french
+        Function to test the funcTLSVersiontion english_to_french
         """
         self.assertIsNone(english_to_french(None))
         self.assertEqual(english_to_french("Hello"), "Bonjour")
