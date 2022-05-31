@@ -35,4 +35,4 @@ def french_to_english(request):
         return None
     response = language_translator.translate(text=request,model_id="fr-en").get_result()
     translation = response['translations'][0]['translation']
-    return 
+    return translation
